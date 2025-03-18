@@ -22,11 +22,11 @@ export default function Card() {
     ];
 
     const facts = [
-        { id: "1", title: "Minha Jornada", description: "Comecei a programar há 5 anos e desde então venho aprimorando minhas habilidades." },
-        { id: "2", title: "Projetos", description: "Já desenvolvi diversos projetos, incluindo aplicativos mobile e sistemas web." },
+        { id: "1", title: "Minha Jornada", description: "Comecei a programar há 1 ano  e desde então venho aprimorando minhas habilidades." },
+        { id: "2", title: "Projetos", description: "Já desenvolvi diversos projetos, incluindo o HTML e CSS de um portal educacional do conteúdo de inglês." },
         { id: "3", title: "Objetivos", description: "Meu objetivo é sempre aprender e crescer profissionalmente no desenvolvimento de software." },
-        { id: "4", title: "Curiosidade", description: "Além da programação, gosto de explorar novas tecnologias e compartilhar conhecimento." },
-        { id: "5", title: "Visão", description: "Acredito que tecnologia pode transformar vidas e estou comprometido em fazer parte dessa mudança." }
+        { id: "4", title: "Curiosidade", description: "Além da programação, gosto de brincar com as minhas cachorras e assistir jogos de futebol." },
+        { id: "5", title: "Visão", description: "Acredito que tecnologia pode transformar vidas e estou comprometida em fazer parte dessa mudança." }
     ];
 
     return (
@@ -47,9 +47,9 @@ export default function Card() {
                     style={styles.skillsList}
                 />
 
-                <Image source={{ uri: "https://via.placeholder.com/100" }} style={styles.profileImage} />
-                <Text style={styles.name}>Seu Nome</Text>
-                <Text style={styles.role}>Desenvolvedor</Text>
+<Image source={require('../assets/eu.jpg')} style={styles.profileImage} />
+                <Text style={styles.name}>Júlia Andrade Guarnieri</Text>
+                <Text style={styles.role}>Desenvolvedora</Text>
 
 
                 {facts.map((item) => (
